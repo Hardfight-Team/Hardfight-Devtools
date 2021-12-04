@@ -1,0 +1,11 @@
+# General
+dist
+
+# MacOS
+.DS_Store
+
+# Python
+*.egg-info
+**/__pycache__
+**.pyc
+**/.mypy_cache
