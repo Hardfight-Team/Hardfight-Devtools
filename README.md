@@ -11,21 +11,21 @@
 
 ## 💡 What is it
 
-Devtools is a Python utils tools to make **building**, **testing** and **deploying** hardfight projects easy.    
+Devtools is a Python utils tools to make **building**, **testing** and **deploying** hardfight projects easy.  
 It offers all the **scripting power** of the python language with a lightweight API to register **simple tasks** in one script.
 
 ## 🛠️ How to install
 
-Hardfight devtools is available as a PyPi package, you can install it using:    
+Hardfight devtools is available as a PyPi package, you can install it using:  
 ```pip install hardfight_devtools```
 Note that dev_tools is **assumed installed** to build any Hardfight project.
 
 ## ❓ How to use
 
-This repository itself uses dev_tools to perform build and deploy routines.    
+This repository itself uses dev_tools to perform build and deploy routines.  
 
-On a new project, create a `dev_tools.py` file on the root.    
-To declare a new task, add the `@dev_tools_task` decorator to the function of your task.    
+On a new project, create a `dev_tools.py` file on the root.  
+To declare a new task, add the `@dev_tools_task` decorator to the function of your task.  
 
 ```python
 from dev_tools.dev_tools_api import dev_tools_main, dev_tools_task 
@@ -36,8 +36,8 @@ def print_hw():
     print('Hello world!')
 ```
 
-Devtools provides a bunch of usefull scripts and functions for build, test and deploy automations (see `dev_tools.utils` module).
-Don't forget to call the `dev_tools_main` method at the end of your script to make it functional.    
+Devtools provides a bunch of usefull scripts and functions for build, test and deploy automations (see `dev_tools.utils` module).  
+Don't forget to call the `dev_tools_main` method at the end of your script to make it functional.  
 
 ```python
 # Script entry point
