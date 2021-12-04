@@ -5,7 +5,7 @@
      <h3 align="center">Hardfight Devtools</h3>
      <p align="center">Build, test and deploy Hardfight projects easly</p>
      <p align="center">
-            <img src="https://github.com/Hardfight-Team/Hardfight-Client/actions/workflows/deploy.yml/badge.svg" alt="build"/>
+            <img src="https://github.com/Hardfight-Team/Hardfight-Devtools/actions/workflows/publish.yml/badge.svg" alt="publish"/>
      </p>
 </div>    
 
