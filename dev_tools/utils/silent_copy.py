@@ -9,7 +9,7 @@ def silent_copy(src: str, dest: str):
     """Silent copies a directory or a file
 
     :param src:     Source directory or file
-    :type src:        str
+    :type src:      str
     :param dest:    Destination file or directory name
     :type dest:     str
     """

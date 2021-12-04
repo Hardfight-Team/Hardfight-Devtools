@@ -10,7 +10,7 @@ def read_url_as_json(url: str) -> Dict:
     :note: No sanity checks performed, caller should catch exceptions
 
     :param url: URL to read the JSON
-    :type url:    str
+    :type url:  str
 
     :return:    Content of the URL as a JSON
     :rtype:     Dict

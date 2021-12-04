@@ -10,9 +10,9 @@ def exec_cmd(cmd: str, cwd: str = '.'):
     Exits the script is the return code is not 0
 
     :param cmd: Command to execute
-    :type cmd:    str
+    :type cmd:  str
     :param cwd: Working directory, defaults to '.'
-    :type cwd:    str, optional
+    :type cwd:  str, optional
     """
     try:
         splitted_cmd = shlex.split(cmd)

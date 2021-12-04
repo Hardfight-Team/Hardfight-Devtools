@@ -21,8 +21,8 @@ def extract_archive(zip_file: str, dest: str):
 
     :param zip_file:    ZIP file
     :type zip_file:     str
-    :param dest:            Destination file
-    :type dest:             str
+    :param dest:        Destination file
+    :type dest:         str
     """
     with ZipFileWithPermissions(zip_file, 'r') as zip_ref:
         zip_ref.extractall(dest)

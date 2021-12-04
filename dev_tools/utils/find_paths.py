@@ -8,10 +8,10 @@ import os
 def find_paths(root: str, pattern: str) -> List[str]:
     """Find paths in subdirectories of files matching the pattern
 
-    :param root:        Root directory to look for files
-    :type root:         str
+    :param root:    Root directory to look for files
+    :type root:     str
     :param pattern: Pattern matching the file names
-    :type pattern:    str
+    :type pattern:  str
     """
     found_files = []
     for dirpath, dirnames, filenames in os.walk(root):

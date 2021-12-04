@@ -13,14 +13,14 @@ def upload_file(s3_client: Any, file_path: str, obj_name: str,
     """Upload public file to the AWS hardfight download bucket
     :note: Exits(1) if the upload fail
 
-    :param s3_client: S3 client instance
+    :param s3_client:   S3 client instance
     :type s3_client:    Any
-    :param file_path: File to upload
+    :param file_path:   File to upload
     :type file_path:    str
     :param obj_name:    Object name in the bucket
     :param obj_name:    str
-    :param bucket:        Bucket to upload to, defaults to AWS_BUCKET
-    :param bucket:        str
+    :param bucket:      Bucket to upload to, defaults to AWS_BUCKET
+    :param bucket:      str
     """
     try:
         s3_client.upload_file(file_path, bucket, obj_name,

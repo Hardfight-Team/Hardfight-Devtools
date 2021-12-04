@@ -34,8 +34,8 @@ def dev_tools_task(name: str, desc: Optional[str] = None) -> Callable:
     :param desc:    Task description (displayed in --help), defaults to None
     :type desc:     Optional[str], optional
 
-    :return:            Register routine
-    :rtype:             Callable
+    :return:    Register routine
+    :rtype:     Callable
     """
     def register_task(func: Callable):
         def execute_task():

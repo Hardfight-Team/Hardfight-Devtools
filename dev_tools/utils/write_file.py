@@ -7,7 +7,7 @@ def write_file(path: str, content: str):
 
     :param path:        The file to write on
     :type path:         str
-    :param content: The content to wirte
+    :param content:     The content to wirte
     :type path:         str
     """
     with open(path, 'w+') as file:

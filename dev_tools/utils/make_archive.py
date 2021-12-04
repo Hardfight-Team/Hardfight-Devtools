@@ -8,7 +8,7 @@ def make_archive(src: str, dest: str):
     """Make an archive with the given source
 
     :param src:     Source directory (to archive)
-    :type src:        str
+    :type src:      str
     :param dest:    Archive destination
     :type dest:     str
     """
