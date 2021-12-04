@@ -11,7 +11,7 @@
 
 ## 💡 What is it
 
-Devtools is a Python utils tools to make **building**, **testing** and **deploying** hardfight projects easy.  
+Devtools is a Python tool to make **building**, **testing** and **deploying** internal hardfight projects easy.  
 It offers all the **scripting power** of the python language with a lightweight API to register **simple tasks** in one script.
 
 ## 🛠️ How to install
