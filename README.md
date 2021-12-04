@@ -1,6 +1,6 @@
 <div>
      <p align="center">
-        <img width="352" height="220" src="dev_tools/files/readme/devtools_symbol.png" />
+        <img width="220" height="220" src="misc/files/readme/devtools_symbol.png" />
      </p>
      <h3 align="center">Hardfight Devtools</h3>
      <p align="center">Build, test and deploy Hardfight projects easly</p>
