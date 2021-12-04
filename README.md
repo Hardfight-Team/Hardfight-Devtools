@@ -17,7 +17,7 @@ It offers all the **scripting power** of the python language with a lightweight 
 ## 🛠️ How to install
 
 Hardfight devtools is available as a PyPi package, you can install it using:  
-```pip install hardfight_devtools```
+```pip install hardfight_devtools```  
 Note that dev_tools is **assumed installed** to build any Hardfight project.
 
 ## ❓ How to use
