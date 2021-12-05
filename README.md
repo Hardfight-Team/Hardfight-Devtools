@@ -24,7 +24,7 @@ Note that dev_tools is **assumed installed** to build any Hardfight project.
 
 This repository itself uses dev_tools to perform build and deploy routines.  
 
-On a new project, create a `dev_tools.py` file on the root.  
+On a new project, create a `devtools_script.py` file on the root.  
 To declare a new task, add the `@dev_tools_task` decorator to the function of your task.  
 
 ```python
