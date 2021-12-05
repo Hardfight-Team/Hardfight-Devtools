@@ -20,8 +20,9 @@ LONG_DESC = (PARENT_DIR / 'README.md').read_text(encoding='utf-8')
 # Python package setup
 setuptools.setup(
     name='hardfight_devtools',
-    packages=setuptools.find_packages(),
-    version='0.2',
+    package_dir={'': 'src'},
+    packages=setuptools.find_packages(where='src'),
+    version='0.3',
     license='MIT',
     description='Devtools is a Python utils tools to make building, '
                 'testing and deploying hardfight projects easy',
