@@ -10,12 +10,15 @@ GRADLE_WRAP = './gradlew'
 GRADLE_WRAP_WINDOWS = './gradlew.bat'
 
 
-def gradle_build():
-    """Builds the client using gradle"""
+def gradle_task(task: str):
+    """Runs a gradle task"""
     gradlew = GRADLE_WRAP if sys.platform != 'win32' else GRADLE_WRAP_WINDOWS
-    exec_cmd(f'{gradlew} build')
+    exec_cmd(f'{gradlew} {task}')
 
 
 # Script version of the function
 if __name__ == '__main__':
-    gradle_build()
+    if len(sys.argv) < 2:
+        print(f'Usage: {sys.argv[0]} <task>', file=sys.stderr)
+        sys.exit(1)
+    gradle_task(sys.argv[1])
