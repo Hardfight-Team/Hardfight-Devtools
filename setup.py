@@ -22,7 +22,7 @@ setuptools.setup(
     name='hardfight_devtools',
     package_dir={'': 'src'},
     packages=setuptools.find_packages(where='src'),
-    version='0.4',
+    version='0.6',
     license='MIT',
     description='Devtools is a Python utils tools to make building, '
                 'testing and deploying hardfight projects easy',
